@@ -12,8 +12,9 @@ body {
   align-items: center;
 }
 
-.large {
-  width: 75%;
+.center img {
+  width: auto;
+  padding: 25%;
   object-fit: contain;
 }
 
