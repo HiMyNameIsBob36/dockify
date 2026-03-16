@@ -10,29 +10,7 @@
     <meta property="og:title" content="Home | Dockify" />
     <meta property="og:description" content="Dockify is an all in one platform to create docs, update logs & more!" />
     <meta property="og:image" content="https://dockiffy.netlify.app/meida/favicon.png" />
-    <meta name="theme-color" content="#002fff">
-
-   
-    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
-    <script>
-
-const supabase = supabase.createClient(
-"https://lajcdyfxtrmmwoljshke.supabase.co",
-"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImxhamNkeWZ4dHJtbXdvbGpzaGtlIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzM1Njg5ODEsImV4cCI6MjA4OTE0NDk4MX0.7kv0g5OCiG0OrZg1979Q8rW5Dz_GArfEPlxHmQv_9bk"
-);
-
-async function signup() {
-
-const { data, error } = await supabase.auth.signUp({
-email: "test@email.com",
-password: "12345678"
-})
-
-console.log(data)
-
-}
-
-</script>
+    <meta name="theme-color" content="#002fff">   
 </head>
 <body>
 
@@ -78,6 +56,37 @@ console.log(data)
 </section> -->
 
    <the-legal></the-legal>
+
+
+
+
+     
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
+    <script>
+
+const supabase = window.supabase.createClient(
+"https://lajcdyfxtrmmwoljshke.supabase.co",
+"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImxhamNkeWZ4dHJtbXdvbGpzaGtlIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzM1Njg5ODEsImV4cCI6MjA4OTE0NDk4MX0.7kv0g5OCiG0OrZg1979Q8rW5Dz_GArfEPlxHmQv_9bk"
+)
+
+async function signup() {
+
+const { data, error } = await supabase.auth.signUp({
+email: "test@email.com",
+password: "12345678"
+})
+
+console.log(data)
+
+}
+
+</script>
+
+
+
+
+
+
    
 </body>
 </html>
