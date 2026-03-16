@@ -11,7 +11,7 @@ body {
   display: flex;
   flex-direction: column;
   background: #f4f6ff;
-  color: #111;
+  color: #11111;
 }
 
 /* HEADER */
@@ -106,15 +106,19 @@ body {
   color: #555;
 }
 
-.hero a {
+.button {
   text-decoration: none;
   border: 2px solid #002fff;  
   padding: 14px 30px;
   border-radius: 50px;
-  background: ##002fff80;
+  background: #1e46f8b0;
   color: white;
   font-weight: 600;
   cursor: pointer;
+}
+
+.button:hover {
+
 }
 
 /* FEATURES */
