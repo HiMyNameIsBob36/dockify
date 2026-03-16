@@ -75,20 +75,10 @@ body {
   border-radius: 50px;
 }
 
-/*.nav a::after {
-  content: "";
-  position: absolute;
-  inset: -6px;
-  border: 3px solid #002fff;
-  border-radius: 30px;
-  opacity: 0;
-  transform: scale(.9);
-}
-
-.nav a:hover::after {
-  opacity: 1;
-  transform: scale(1);
-}*/
+/*
+.nav a::after { content: ""; position: absolute; inset: -6px; border: 3px solid #002fff; border-radius: 30px; opacity: 0; transform: scale(.9); }
+.nav a:hover::after {o pacity: 1; transform: scale(1); } 
+*/
 
 /* HERO */
 
@@ -117,8 +107,7 @@ body {
 }
 
 .hero div {
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid #002fff;  
   padding: 14px 30px;
   border-radius: 50px;
   background: #002fff;
