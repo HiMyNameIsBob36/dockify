@@ -116,9 +116,11 @@ body {
   color: #555;
 }
 
-.hero button {
+.hero div {
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
   padding: 14px 30px;
-  border: none;
+  border-radius: 50px;
   background: #002fff;
   color: white;
   font-weight: 600;
