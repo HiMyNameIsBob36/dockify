@@ -19,7 +19,18 @@
 const supabase = supabase.createClient(
 "https://lajcdyfxtrmmwoljshke.supabase.co",
 "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImxhamNkeWZ4dHJtbXdvbGpzaGtlIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzM1Njg5ODEsImV4cCI6MjA4OTE0NDk4MX0.7kv0g5OCiG0OrZg1979Q8rW5Dz_GArfEPlxHmQv_9bk"
-)
+);
+
+async function signup() {
+
+const { data, error } = await supabase.auth.signUp({
+email: "test@email.com",
+password: "12345678"
+})
+
+console.log(data)
+
+}
 
 </script>
 </head>
@@ -44,7 +55,7 @@ const supabase = supabase.createClient(
 <section class="hero">
 <h1>Dock Your Projects in one Place</h1>
 <p>Create projects, documentation, tutorials and dev logs.</p>
-<a href="https://dockiffy.netlify.app/login" class="button">Get Started</a>
+<button class=button" onclick="signup()">Get Started</button>
 </section>
 
    
