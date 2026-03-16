@@ -107,11 +107,10 @@ body {
 }
 
 .button {
-  text-decoration: none;
-  border: 2px solid #002fff;  
+  text-decoration: none;  
   padding: 14px 30px;
   border-radius: 50px;
-  background: #1e46f8b0;
+  background: #022fff;
   color: white;
   font-weight: 600;
   cursor: pointer;
