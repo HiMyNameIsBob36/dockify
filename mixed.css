@@ -106,11 +106,12 @@ body {
   color: #555;
 }
 
-.hero div {
-  border: 1px solid #002fff;  
+.hero a {
+  text-decoration: none;
+  border: 2px solid #002fff;  
   padding: 14px 30px;
   border-radius: 50px;
-  background: #002fff;
+  background: ##002fff80;
   color: white;
   font-weight: 600;
   cursor: pointer;
