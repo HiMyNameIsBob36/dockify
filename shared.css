@@ -35,9 +35,9 @@ opacity .25s ease;
 display:flex;
 justify-content:space-between;
 align-items:center;
-
+background: #002fff;
+color: white;
 padding:18px 40px;
-
 animation:headerLoad .6s ease forwards;
 
 }
