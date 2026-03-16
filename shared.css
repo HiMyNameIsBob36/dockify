@@ -71,7 +71,8 @@ letter-spacing:.05em;
 /* ---------------- */
 
 .nav{
-
+background: white;
+  border-radius: 50%;
 display:flex;
 align-items:center;
 gap:22px;
