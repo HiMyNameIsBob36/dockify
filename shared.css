@@ -90,7 +90,8 @@ padding:6px 4px;
 
 .nav a:hover {
   background: #002fff;
-  colour: white;
+  color: white;
+  border-radius: 50px;
 }
 
 /* ---------------- */
